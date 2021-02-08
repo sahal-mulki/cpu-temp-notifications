@@ -1,5 +1,5 @@
 # cpu-temp-notifications
-A python program for alerting you when you computer gets too hot.
+A python program for alerting you when your computer gets too hot.
 
 ## About
 
