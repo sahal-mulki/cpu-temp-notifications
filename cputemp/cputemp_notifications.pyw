@@ -3,15 +3,12 @@ from win10toast import ToastNotifier
 import time
 
 print("1")
+
 time.sleep(5)
-"""
-try:
-    print(ctypes.windll.shell32.IsUserAnAdmin())
-except:
-    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
-"""
+
 print("2")
 w = wmi.WMI(namespace="root\wmi")
+
 while True:
     temperature_info = w.MSAcpi_ThermalZoneTemperature()[0]
     print("3")
