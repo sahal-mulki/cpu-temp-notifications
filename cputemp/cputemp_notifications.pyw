@@ -12,7 +12,7 @@ while True:
     
     if 50 < temperature_info2:
         toaster = ToastNotifier()
-        toaster.show_toast("The laptop is getting hot!",
+        toaster.show_toast("The PC is getting hot!",
         str("PC temperature is " + str(temperature_info2)),
         duration=5)
 
